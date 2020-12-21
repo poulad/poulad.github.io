@@ -14,8 +14,8 @@ I submitted many applications to companies I found interesting. A number of them
 - `D`: In content streaming. I cancelled my interview here after hearing lots of negative comments about them.
 - `E`: In food ordering and delivery. I was hired here.
 - `F`: In book and content selling.
-- `G`: In crypto currency business.
-- `H`: In personal finance.
+- `G`: In crypto currency business. I cancelled my interview there after getting an offer.
+- `H`: In personal finance. I cancelled my interview there after getting an offer.
 
 Here's the timeline showing what happened:
 
@@ -83,6 +83,27 @@ I always had a few questions prepared so that I could asked towards the end of t
 
 ### Coding
 
+I was practicing more JavaScript at that time so decided to use it for problem solving questions. It was a good choice as many interviewers knew it. Since the language isn't verbose and is forgiving with its syntax, I could save some time by typing less. I used this language for all coding interviews even though some of the positions were for other languages such as Java or Python.
+
+I practiced a lot using LeetCode and HackerRank. LeetCode has better UX than HackerRank. I later on got into the free learning courses offered on LeetCode. They are pretty good on reviewing the fundamentals like Arrays, Strings, Lists, Recursion, Binary Search, Trees, etc.
+
+I registered on codinginterview.io so I could get familiar with the platform that most of the interviewers use. I checked some of new and older JS syntax on it and figured what the NodeJS version on it was.
+
+Company `C` used a take-home assignment published on HackerRank. It was a private access link. They also used HackerRank for their coding interview.
+
+When it got to coding, in order to show my mindset for doing TDD, I always started by writing an empty-body function and then quickly writing test cases for it before actually writing the code.
+
+```js
+function reverse(s) {
+  // TODO
+}
+
+console.log(reverse() === null);
+console.log(reverse("a") === "a");
+console.log(reverse("ab") === "ba");
+console.log(reverse("cat") === "tac");
+```
+
 ### Culture Fit
 
 ### System Design Interview
@@ -91,13 +112,15 @@ I read the basics on distributed systems, RDBMS bottlenecks, caching practices, 
 
 By looking at the business of the company, I could guess they are going to ask me to design a part of the system they are working on - of course in a simpler form.
 
-- Read:
+Instead of sharing my screen when doodling the design, I quickly created a Google Slide and sent the link to interviewers on Zoom meeting chat so we all could see it easily.
+
+- Must read:
   - https://systemdesigntutorial.com
   - https://gist.github.com/vasanthk/485d1c25737e8e72759f
-- Watch:
+- Might want to watch:
   - https://www.youtube.com/watch?v=jItLuOTsCX4. Also just search for other mock interviews on YouTube. I found all top results to be useful.
   - https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX
-- Opinions
+- Good to know opinions
   - https://www.reddit.com/r/ExperiencedDevs/comments/k6pvqd/system_design_interviews/
 
 > Give this Redditor some karma: https://www.reddit.com/r/ExperiencedDevs/comments/k81k8j/system_design_interview_prep_resources/gew238t
